@@ -1,4 +1,11 @@
-# Backend Developer Test
+# Getting Started
+
+### Prerequisites
+- Java version 1.8 or higher.
+- Spring Boot version 2.7.14.
+- Make sure to have Lombok enabled and properly configured in your IDE.
+
+## Backend Developer Test
 Your task is to create a simple Spring Boot service, that is able to calculate any possible land route from one country to another. The objective is to take a list of country data in JSON format and calculate the route by utilizing individual countries border information.
 
 ### Specifications:
@@ -18,12 +25,7 @@ returns a list of border crossings to get from origin to destination
 }
 ```
 
-### Prerequisites
-- Java version 1.8 or higher.
-- Spring Boot version 2.7.14.
-- Make sure to have Lombok enabled and properly configured in your IDE.
-
-### Testing
+## Testing
 
 Execute the application by running the provided command from the application's main directory.
 
